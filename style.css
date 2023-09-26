@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ubicacion{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-image: url("img/coyhaiquecarretera.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.ubicacion .container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+    padding: 10px;
+  
+}
+
+.ubicacion .container img{
+    width: 0px;
+    flex-grow: 1; 
+    object-fit: cover;
+    transition: .5s ease;
+}
+
+.container img:hover{
+    cursor:pointer;
+    width: 300px;
+    filter: contrast(120%);
+    border-radius: 10px;
+}
+
+
+
+.solicitud{
+    height: 630px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-image: url("img/carretera-austral.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.solicitud .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+
+
+.solicitud .container img{
+    width: 216px; 
+    transition: .5s ease;
+}
+
+
+.solicitud .container img:hover{
+    cursor:pointer;
+    width: 500px;
+    filter: contrast(120%);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
